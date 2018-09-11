@@ -1,0 +1,42 @@
+
+.contact{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100%;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat
+}
+
+.contact-img {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100%;
+
+}
+
+.contact-radial{
+  position:relative;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100%;
+  background: radial-gradient(transparent, #0C0C0C);
+}
+
+.is-active::before {
+  display:none;
+  color: blue;
+}
+
+.is-active {
+  color: #0f33ff;
+}
+
+.header--cta {
+  color: white;
+}
