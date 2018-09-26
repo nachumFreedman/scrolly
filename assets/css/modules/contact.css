@@ -34,9 +34,23 @@
 }
 
 .is-active {
-  color: #0f33ff;
+  color: #e53737;
 }
 
 .header--cta {
   color: white;
+}
+
+.contact-us-button button {
+  width: 150px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.contact--lookup .modal {
+  padding-top: 30px;
+}
+
+.modal--information p {
+  margin-top: -15px;
 }
